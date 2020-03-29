@@ -35,7 +35,7 @@ spec:
       containers:
         - name: trident-installer
           image: mrlindblom/tridentctl:v20.01.1
-          command: ["/tridentctl", " -n trident", "install"]
+          command: ["/tridentctl", "install"]
       restartPolicy: Never
       serviceAccountName: trident-installer
   backoffLimit: 4

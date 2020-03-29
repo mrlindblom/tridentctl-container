@@ -10,8 +10,8 @@ mkdir -p ./build/lib64
 mkdir -p ./build/lib/x86_64-linux-gnu/
 
 cp /lib64/ld-linux-x86-64.so.2 ./build/lib64/ld-linux-x86-64.so.2
-cp /lib/x86_64-linux-gnu/libc.so.6 ./build/lib/x86_64-linux-gnu/libpthread.so.0
-cp /lib/x86_64-linux-gnu/libpthread.so.0 ./build/lib/x86_64-linux-gnu/libc.so.6
+cp /lib/x86_64-linux-gnu/libc.so.6 ./build/lib/x86_64-linux-gnu/libc.so.6
+cp /lib/x86_64-linux-gnu/libpthread.so.0 ./build/lib/x86_64-linux-gnu/libpthread.so.0
 
 wget -O trident-installer.tar.gz $TRIDENT_URL --quiet
 tar -zxvf trident-installer.tar.gz -C ./build/ trident-installer/tridentctl --strip-components 1 
