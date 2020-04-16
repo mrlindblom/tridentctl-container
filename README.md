@@ -1,4 +1,4 @@
 # tridentctl-container
-Scratch that container tridentctl
+Scratch container with tridentctl
 
 [Docker hub](https://hub.docker.com/repository/docker/mrlindblom/tridentctl)
